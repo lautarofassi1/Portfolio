@@ -1,15 +1,34 @@
 body{
     padding-top: 70px;
 }
-#sobre-mi {
-  background-color: #f8f9fa;
-}
-
 #sobre-mi h2 {
-  color: #343a40;
+  color: #212529;
+  font-weight: 600;
 }
 
 #sobre-mi p {
   font-size: 1.1rem;
-  color: #555;
+  color: #495057;
+}
+
+.badge {
+  font-size: 0.9rem;
+  padding: 0.5em 0.75em;
+}
+
+.project-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+#tecnologias i {
+  transition: transform 0.3s ease;
+}
+
+#tecnologias i:hover {
+  transform: scale(1.2);
 }
