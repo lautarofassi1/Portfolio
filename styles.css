@@ -1,3 +1,15 @@
 body{
     padding-top: 70px;
 }
+#sobre-mi {
+  background-color: #f8f9fa;
+}
+
+#sobre-mi h2 {
+  color: #343a40;
+}
+
+#sobre-mi p {
+  font-size: 1.1rem;
+  color: #555;
+}
